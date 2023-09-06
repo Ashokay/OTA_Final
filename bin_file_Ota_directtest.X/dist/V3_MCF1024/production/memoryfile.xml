@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/V3_MCF1024/production/bin_file_Ota_directtest.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>1049728</length>                 
+      <used>21760</used>                     
+      <free>1027968</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>262144</length>                 
+      <used>732</used>                     
+      <free>261412</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
