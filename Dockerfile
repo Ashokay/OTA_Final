@@ -10,8 +10,6 @@ COPY . /app
 # Set the working directory
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y mailutils
-
 # Copy the resource file for the target device
 COPY p32MK1024MCF064.S /opt/microchip/xc32/v4.00/pic32mx/lib/proc/32MK1024MCF064/
 COPY p32MK1024MCF064_div.S /opt/microchip/xc32/v4.00/pic32mx/lib/proc/32MK1024MCF064/
